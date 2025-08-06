@@ -1,0 +1,23 @@
+[
+	{
+		"id": 0,
+		"src": "/assets/images/tijan/tijanMain.jpg",
+		"alt": "tijan",
+		"title": "Design",
+		"desc": "Tijan shares useful insights and tips about dental care and modern dentist tools and techniques."
+	},
+	{
+		"id": 1,
+		"src": "/assets/images/plata/plataMain.png",
+		"alt": "plata",
+		"title": "Videos",
+		"desc": "Plata explores Islamic landmarks and shares meaningful experiences from Qabaa and spiritual travel journeys."
+	},
+	{
+		"id": 2,
+		"src": "/assets/images/sherif/sherifMain.jpg",
+		"alt": "sherif",
+		"title": "Sponsors",
+		"desc": "Sherif talks about creative ceramic designs, useful materials, and how ceramics improve everyday life."
+	}
+]

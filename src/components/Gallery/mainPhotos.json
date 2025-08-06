@@ -1,0 +1,32 @@
+[
+	{
+		"id": 0,
+		"src": "/assets/images/tijan/tijanMain.jpg",
+		"alt": "tijan",
+		"desc": "Tijan shares useful insights and tips about dental care and modern dentist tools and techniques."
+	},
+	{
+		"id": 1,
+		"src": "/assets/images/plata/plataMain.png",
+		"alt": "plata",
+		"desc": "Plata explores Islamic landmarks and shares meaningful experiences from Qabaa and spiritual travel journeys."
+	},
+	{
+		"id": 2,
+		"src": "/assets/images/sherif/sherifMain.jpg",
+		"alt": "sherif",
+		"desc": "Sherif talks about creative ceramic designs, useful materials, and how ceramics improve everyday life."
+	},
+	{
+		"id": 3,
+		"src": "/assets/images/sweden/swedenMain.jpg",
+		"alt": "sweden",
+		"desc": "This image shows Sweden's top-quality truck parts used by mechanics and drivers across the country."
+	},
+	{
+		"id": 4,
+		"src": "/assets/images/DrSherif/DrSherifMain.jpg",
+		"alt": "DrSherif",
+		"desc": "Dr. Sherif explains how to stay healthy, eat well, and take care of your body."
+	}
+]

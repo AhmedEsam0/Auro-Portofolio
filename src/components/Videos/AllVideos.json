@@ -1,0 +1,63 @@
+[
+  {
+    "type": "3D",
+    "src": "/assets/videos/3DVideos/3D-1.mp4",
+    "poster": "/assets/images/plata/plataMain.png"
+  },
+  {
+    "type": "3D",
+    "src": "/assets/videos/3DVideos/3D-2.mp4",
+    "poster": "/assets/images/tijan/tijanMain.jpg"
+  },
+  {
+    "type": "3D",
+    "src": "/assets/videos/3DVideos/3D-3.mp4",
+    "poster": "/assets/images/sweden/swedenMain.jpg"
+  },
+  {
+    "type": "3D",
+    "src": "/assets/videos/3DVideos/3D-4.mp4",
+    "poster": "/assets/images/plata/plataMain.png"
+  },
+  {
+    "type": "3D",
+    "src": "/assets/videos/3DVideos/3D-5.mp4",
+    "poster": "/assets/images/plata/plataMain.png"
+  },
+  {
+    "type": "3D",
+    "src": "/assets/videos/3DVideos/3D-6.mp4",
+    "poster": "/assets/images/plata/plataMain.png"
+  },
+
+  {
+    "type": "reel",
+    "src": "/assets/videos/reels/reel-1.mp4",
+    "poster": "/assets/images/plata/plataMain.png"
+  },
+  {
+    "type": "reel",
+    "src": "/assets/videos/reels/reel-2.mp4",
+    "poster": "/assets/images/tijan/tijanMain.jpg"
+  },
+  {
+    "type": "reel",
+    "src": "/assets/videos/reels/reel-3.mp4",
+    "poster": "/assets/images/sweden/swedenMain.jpg"
+  },
+  {
+    "type": "reel",
+    "src": "/assets/videos/reels/reel-4.mp4",
+    "poster": "/assets/images/tijan/tijanMain.jpg"
+  },
+  {
+    "type": "reel",
+    "src": "/assets/videos/reels/reel-5.mp4",
+    "poster": "/assets/images/plata/plataMain.png"
+  },
+  {
+    "type": "reel",
+    "src": "/assets/videos/reels/reel-6.mp4",
+    "poster": "/assets/images/sweden/swedenMain.jpg"
+  }
+]

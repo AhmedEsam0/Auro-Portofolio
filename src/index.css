@@ -1,0 +1,200 @@
+@import "tailwindcss";
+
+* {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	scroll-behavior: smooth;
+	outline: none;
+}
+:root {
+	--main-color: #053ea8;
+	--lighter-main-color: #f472b6;
+	--sideRoad-color: #0c4285;
+}
+
+/* HTML Elements */
+body {
+	overflow-x: hidden;
+}
+button {
+	cursor: pointer;
+}
+video {
+	will-change: transform;
+}
+
+/* Loading Screen */
+@-webkit-keyframes spin-slow {
+	0% {
+		-webkit-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+	100% {
+		-webkit-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
+}
+@keyframes spin-slow {
+	0% {
+		-webkit-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+	100% {
+		-webkit-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
+}
+@-webkit-keyframes spin-slow-reverse {
+	0% {
+		-webkit-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+	100% {
+		-webkit-transform: rotate(-360deg);
+		transform: rotate(-360deg);
+	}
+}
+@keyframes spin-slow-reverse {
+	0% {
+		-webkit-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+	100% {
+		-webkit-transform: rotate(-360deg);
+		transform: rotate(-360deg);
+	}
+}
+@-webkit-keyframes float {
+	0% {
+		-webkit-transform: translateY(0) scale(1);
+		transform: translateY(0) scale(1);
+		opacity: 0;
+	}
+	50% {
+		-webkit-transform: translateY(-15px) scale(1.1);
+		transform: translateY(-15px) scale(1.1);
+		opacity: 0.8;
+	}
+	100% {
+		-webkit-transform: translateY(0) scale(1);
+		transform: translateY(0) scale(1);
+		opacity: 0;
+	}
+}
+@keyframes float {
+	0% {
+		-webkit-transform: translateY(0) scale(1);
+		transform: translateY(0) scale(1);
+		opacity: 0;
+	}
+	50% {
+		-webkit-transform: translateY(-15px) scale(1.1);
+		transform: translateY(-15px) scale(1.1);
+		opacity: 0.8;
+	}
+	100% {
+		-webkit-transform: translateY(0) scale(1);
+		transform: translateY(0) scale(1);
+		opacity: 0;
+	}
+}
+@-webkit-keyframes pulse-slow {
+	0%,
+	100% {
+		opacity: 0.6;
+	}
+	50% {
+		opacity: 1;
+	}
+}
+@keyframes pulse-slow {
+	0%,
+	100% {
+		opacity: 0.6;
+	}
+	50% {
+		opacity: 1;
+	}
+}
+.animate-spin-slow {
+	-webkit-animation: spin-slow 8s linear infinite;
+	animation: spin-slow 8s linear infinite;
+}
+.animate-spin-slow-reverse {
+	-webkit-animation: spin-slow-reverse 10s linear infinite;
+	animation: spin-slow-reverse 10s linear infinite;
+}
+.animate-float {
+	-webkit-animation: float 3s ease-in-out infinite;
+	animation: float 3s ease-in-out infinite;
+}
+.animate-pulse-slow {
+	-webkit-animation: pulse-slow 3s ease-in-out infinite;
+	animation: pulse-slow 3s ease-in-out infinite;
+}
+
+/* animation scroll */
+.cards-scroll {
+	-webkit-transform: translateY(100px) scale(0.6);
+	-ms-transform: translateY(100px) scale(0.6);
+	transform: translateY(100px) scale(0.6);
+	-webkit-animation: scrolling 4s ease-out forwards;
+	animation: scrolling 4s ease-out forwards;
+	animation-timeline: view();
+	animation-range: entry 0%;
+}
+@-webkit-keyframes scrolling {
+	from {
+		opacity: 0;
+		-webkit-transform: translateY(40px) scale(0.1);
+		transform: translateY(40px) scale(0.1);
+	}
+	to {
+		opacity: 1;
+		-webkit-transform: translateY(0px) scale(1);
+		transform: translateY(0px) scale(1);
+	}
+}
+@keyframes scrolling {
+	from {
+		opacity: 0;
+		-webkit-transform: translateY(40px) scale(0.1);
+		transform: translateY(40px) scale(0.1);
+	}
+	to {
+		opacity: 1;
+		-webkit-transform: translateY(0px) scale(1);
+		transform: translateY(0px) scale(1);
+	}
+}
+
+/* bg color */
+.bg-radial-gradient {
+	background: -o-radial-gradient(
+		center,
+		ellipse,
+		#ec4899,
+		#7a087e 30%,
+		#393cf5
+	);
+	background: radial-gradient(ellipse at center, #ec4899, #7a087e 30%, #393cf5);
+}
+.bg-radial-gradient-dark {
+	background: -o-radial-gradient(center, ellipse, #9b2c68, #4c0563, #3b82f6);
+	background: radial-gradient(ellipse at center, #9b2c68, #4c0563, #3b82f6);
+}
+.bg-radial-gradient-dark-continue {
+	background: -o-radial-gradient(center, ellipse, #3b82f6, #4c0563, #1d4ed8);
+	background: radial-gradient(ellipse at center, #3b82f6, #4c0563, #1d4ed8);
+}
+
+/* scroll bars */
+.hide-scrollbar::-webkit-scrollbar {
+	display: none;
+}
+.hide-scrollbar {
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+}
